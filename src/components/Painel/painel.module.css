@@ -1,0 +1,6 @@
+.painelContainer {
+    background-color: #fff;
+    padding: 20px;
+    grid-area: painel;
+    overflow-y: auto;
+}

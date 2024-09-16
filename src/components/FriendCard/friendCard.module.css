@@ -1,0 +1,14 @@
+.friendCardContainer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.friendCardContainer img {
+    width: 50px;
+    margin: 10px;
+}

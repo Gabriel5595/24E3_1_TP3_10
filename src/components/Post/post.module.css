@@ -1,0 +1,91 @@
+.postContainer {
+    margin: 5px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+
+.postHeader {
+    display: flex;
+    align-items: center;
+}
+
+.postHeader img{
+    width: 10vw;
+    padding: 5px;
+}
+
+.postHeader p {
+    font-weight:  bold;
+}
+
+.postImgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.postContentText {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.postContentText h5 {
+    padding: 2px;
+}
+
+.postContentText p {
+    padding: 2px;
+    text-align: justify;
+}
+
+.postInteractions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.postInteractions img {
+    width: 20px;
+}
+
+.postLikes, .postShares {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.postInteractions p {
+    font-weight: bold;
+}
+
+@media (min-width: 800px) {
+    .postContainer {
+        max-width: 800px;
+    }
+
+    .postHeader img{
+        width: 70px;
+    }
+
+    .postImgContainer {
+        max-width: 500px;
+    }
+
+    .postContent{
+        display: flex;
+    }
+
+    .postContentText {
+        padding: 10px;
+    }
+
+    .postContentText h5 {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,37 @@
+.headerContainer {
+    background-color: #238ce9;
+    padding: 20px;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tileContainer h1 {
+    color: white;
+}
+
+.menuContainer {
+    flex: 1;
+}
+
+.navbar {
+    list-style: none;
+    text-align: right;
+}
+
+.navItem a {
+    color: white;
+}
+
+@media (min-width:700px) {
+    .menuContainer {
+        align-self: center;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: right;
+        flex: 1;
+        gap: 20px;
+    }
+}
